@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Docker files
+Dockerfile
+dockerfile_prod
+docker-compose.yaml
+
+# Environment variables
+.env
+.env.*
+backend.env
+mongo.env
+
+# Specific environment files
+backend.env
+mongo.env
+
+# Build directory
+dist/
+build/
+
+# npm package
+*.tgz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore any file related to editor or IDE
+.vscode/
+.idea/
